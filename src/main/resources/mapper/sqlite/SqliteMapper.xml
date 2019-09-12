@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhenghao.dbmigration.dao.sqlite.SqliteMapper">
+
+    <!-- 获取员工表所有信息 -->
+    <select id="getAllEmployee" parameterType="string" resultType="map">
+        select * from employee
+    </select>
+
+    <!-- 获取领用表所有信息 -->
+    <select id="getAllBorrowEntry" parameterType="string" resultType="map">
+        select * from borrow_entry
+    </select>
+
+    <!-- 获取领用详情表所有信息 -->
+    <select id="getAllBorrowEntryDetail" parameterType="string" resultType="map">
+        select * from borrow_entry_detail
+    </select>
+
+    <!-- 获取领用详情表所有信息 -->
+    <select id="getAllDetailedList" parameterType="string" resultType="map">
+        select * from detailed_list
+    </select>
+
+</mapper>

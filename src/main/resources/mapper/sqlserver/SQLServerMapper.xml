@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhenghao.dbmigration.dao.sqlserver.SQLServerMapper">
+
+    <!--*****************************************  borrow_entry  ***********************************************************-->
+    <!-- 查询员工表所有信息 -->
+    <select id="getAllEmployee" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerEmployee">
+        select * from employee
+    </select>
+
+    <!-- 删除员工表 表中所有的数据 -->
+    <delete id="deleteAllEmployee" parameterType="string">
+        truncate table employee
+    </delete>
+
+    <!-- 新增员工表数据 -->
+    <insert id="insertEmployee" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerEmployee">
+        INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag)
+        VALUES
+        (
+        #{empId},#{empName},#{password},#{cardId},#{telephone},#{gender},#{birthday},#{registDate},#{modifyDate},#{priority},#{openDoorTime},#{flag}
+        )
+    </insert>
+
+    <!--*****************************************  borrow_entry  ***********************************************************-->
+    <!-- 查询领用表所有数据 -->
+    <select id="getAllBorrowEntry" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerBorrowEntry">
+        select * from borrow_entry
+    </select>
+
+    <!-- 删除领用表所有数据 -->
+    <delete id="deleteAllBorrowEntry" parameterType="string">
+        truncate table borrow_entry
+    </delete>
+
+    <!-- 新增领用表数据 -->
+    <insert id="insertBorrowEntry" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerBorrowEntry">
+        INSERT INTO borrow_entry (borrow_entry_id,detailed_list_id,borrow_emp_id,borrow_date,plan_return_date,
+        actual_return_date,return_emp_id,purpose,task_ticket,borrow_tick_date,status,remark,reserved1,reserved2,
+        reserved3,reserved4,reserved5)
+        VALUES
+        ( #{borrowEntryId},#{detailedListId},#{borrowEmpId},#{borrowDate},#{planReturnDate},
+        #{actualReturnDate},#{returnEmpId},#{purpose},#{taskTicket},#{borrowTickDate},#{status},#{remark},
+        #{reserved1},#{reserved2},#{reserved3},#{reserved4},#{reserved5} )
+    </insert>
+
+
+    <!--*****************************************  borrow_entry_detail  ***********************************************************-->
+    <!-- 查询领用详情表所有数据 -->
+    <select id="getAllBorrowEntryDetail" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerBorrowEntryDetail">
+        select * from borrow_entry_detail
+    </select>
+
+    <!-- 删除领用详情表所有数据 -->
+    <delete id="deleteAllBorrowEntryDetail" parameterType="string">
+        truncate table borrow_entry_detail
+    </delete>
+
+    <!-- 新增领用详情表数据 -->
+    <insert id="insertBorrowEntryDetail" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerBorrowEntryDetail">
+        INSERT INTO borrow_entry_detail (id,borrow_entry_id,tool_id,borrow_number,return_number,test_emp_name,
+              remark,reserved1,reserved2,reserved3,reserved4,reserved5)
+        VALUES
+        (#{id},#{borrowEntryId},#{toolId},#{borrowNumber},#{returnNumber},#{testEmpName},
+              #{remark},#{reserved1},#{reserved2},#{reserved3},#{reserved4},#{reserved5})
+    </insert>
+
+    <!--*****************************************  detailed_list  ***********************************************************-->
+    <!-- 查询领用详情表所有数据 -->
+    <select id="getAllDetailedList" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerDetailedList">
+        select * from detailed_list
+    </select>
+
+    <!-- 删除领用详情表所有数据 -->
+    <delete id="deleteAllDetailedList" parameterType="string">
+        truncate table detailed_list
+    </delete>
+
+    <!-- 新增领用详情表数据 -->
+    <insert id="insertDetailedList" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerDetailedList">
+        INSERT INTO detailed_list (detailed_list_id, detailed_list_name, remark)
+        VALUES
+        (#{detailedListId}, #{detailedListName}, #{remark})
+    </insert>
+
+</mapper>

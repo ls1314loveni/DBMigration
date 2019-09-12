@@ -1,0 +1,51 @@
+spring:
+  datasource:
+    sqlite:
+      driver-class-name: org.sqlite.JDBC
+      jdbc-url: jdbc:sqlite:d:\\tm_db\\tm.db
+      username:
+      password:
+
+    sqlserver:
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      jdbc-url: jdbc:sqlserver://39.105.163.87:1433;DatabaseName=tm_cs
+      username: sa
+      password: zh1qaz!QAZ
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      exclude: WEB-INF/**
+  mvc:
+    static-path-pattern: /static/**
+  servlet:
+    multipart:
+      max-file-size: -1
+      max-request-size: -1
+
+quartz:
+  enabled: true
+
+server:
+  port: 8020
+  servlet:
+    context-path: /dbmigration
+
+mybatis-plus:
+  type-aliases-package: com.zhenghao.dbmigration.entity.sqlite,com.zhenghao.dbmigration.entity.sqlserver
+  mapper-locations: classpath:mapper/*/*Mapper.xml
+  configuration:
+    auto-mapping-behavior: full
+    map-underscore-to-camel-case: false
+    cache-enabled: false
+  global-config:
+    banner: true
+    db-config:
+      db-type: sql_server
+      id-type: auto
+      field-strategy: not_empty
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+
+#logging:
+#  config: classpath:config/slf4j.xml
