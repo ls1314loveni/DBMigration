@@ -8,9 +8,9 @@ import lombok.Data;
 public class SqliteDetailedListDetail {
 
     private Long id;
-    private Integer DETAILED_LIST_ID;
-    private Integer TOOL_ID;
-    private Integer BORROW_NUMBER;
-    private Integer REMARK;
+    private Integer detailedListId;
+    private Integer toolId;
+    private Integer borrowNumber;
+    private String remark;
 
 }

@@ -4,13 +4,17 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 @Data
-@TableName(value = "detailed_list_detail")
-public class SQLServerDetailedListDetail {
+@TableName(value = "tool_his_borrow")
+public class SQLServerToolHisBorrow {
 
     private Integer id;
+    private String borrowEntryId;
     private Integer detailedListId;
+    private String barCode;
     private Integer toolId;
-    private Integer borrowNumber;
+    private String borrowDate;
+    private Integer numberOfUse;
+    private Integer borrowEmpId;
     private String remark;
 
 }

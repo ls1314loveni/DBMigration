@@ -17,9 +17,79 @@
         select * from borrow_entry_detail
     </select>
 
-    <!-- 获取领用详情表所有信息 -->
+    <!-- 获取推荐清单表所有信息 -->
     <select id="getAllDetailedList" parameterType="string" resultType="map">
         select * from detailed_list
+    </select>
+
+    <!-- 获取推荐清单详情表所有信息 -->
+    <select id="getAllDetailedListDetail" parameterType="string" resultType="map">
+        select * from detailed_list_detail
+    </select>
+
+    <!-- 根据报废单号查询报废表中当前月报废的数据 -->
+    <select id="getDiscardEntryByDiscardEntryId" parameterType="com.zhenghao.Params" resultType="map">
+        select * from discard_entry
+        <if test="map != null">
+          where substr(discard_entry_id, 1, 6) = #{map.discardEntryId}
+        </if>
+    </select>
+
+    <!-- 根据报废单号查询报废详情表中当前月报废的数据 -->
+    <select id="getDiscardEntryDetailByDiscardEntryId" parameterType="com.zhenghao.Params" resultType="map">
+        select * from discard_entry_detail
+        <if test="map != null">
+            where substr(discard_entry_id, 1, 6) = #{map.discardEntryId}
+        </if>
+    </select>
+
+    <!-- 根据维护单号查询报维护表中当前月维护的数据 -->
+    <select id="getLogMaintenanceByMaintenanceId" parameterType="com.zhenghao.Params" resultType="map">
+        select * from Log_maintenance
+        <if test="map != null">
+            where substr(maintenance_id, 1, 6) = #{map.maintenanceId}
+        </if>
+    </select>
+
+    <!-- 查询种类表中所有数据 -->
+    <select id="getAllToolCategory" parameterType="string" resultType="map">
+        select * from tool_category
+    </select>
+
+    <!-- 查询工具归还流水表中所有数据 -->
+    <select id="getAllToolHisBack" parameterType="com.zhenghao.Params" resultType="map">
+        select * from Tool_his_back
+        <if test="map != null">
+            where _id > #{map.id}
+        </if>
+    </select>
+
+    <!-- 查询工具领用流水表中所有数据 -->
+    <select id="getAllToolHisBorrow" parameterType="com.zhenghao.Params" resultType="map">
+        select * from Tool_his_borrow
+        <if test="map != null">
+            where _id > #{map.id}
+        </if>
+    </select>
+
+    <!-- 查询工具信息表中所有数据 -->
+    <select id="getAllToolInfo" parameterType="string" resultType="map">
+        select * from tool_info
+    </select>
+
+    <!-- 查询台账表中所有数据 -->
+    <select id="getAllTools" parameterType="string" resultType="map">
+        select * from tools
+    </select>
+
+    <!-- 查询入库表中所有数据 -->
+    <select id="getAllWarehousingEntry" parameterType="string" resultType="map">
+        select * from warehousing_entry
+    </select>
+
+    <!-- 查询入库详情表中所有数据 -->
+    <select id="getAllWarehousingEntryDetail" parameterType="string" resultType="map">
+        select * from warehousing_entry_detail
     </select>
 
 </mapper>

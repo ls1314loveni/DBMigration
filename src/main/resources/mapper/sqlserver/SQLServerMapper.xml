@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.zhenghao.dbmigration.dao.sqlserver.SQLServerMapper">
 
-    <!--*****************************************  borrow_entry  ***********************************************************-->
+    <!--*****************************************  employee  ***********************************************************-->
     <!-- 查询员工表所有信息 -->
     <select id="getAllEmployee" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerEmployee">
         select * from employee
@@ -66,21 +66,278 @@
     </insert>
 
     <!--*****************************************  detailed_list  ***********************************************************-->
-    <!-- 查询领用详情表所有数据 -->
+    <!-- 查询推荐清单表所有数据 -->
     <select id="getAllDetailedList" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerDetailedList">
         select * from detailed_list
     </select>
 
-    <!-- 删除领用详情表所有数据 -->
+    <!-- 删除推荐清单表所有数据 -->
     <delete id="deleteAllDetailedList" parameterType="string">
         truncate table detailed_list
     </delete>
 
-    <!-- 新增领用详情表数据 -->
+    <!-- 新增推荐清单表数据 -->
     <insert id="insertDetailedList" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerDetailedList">
         INSERT INTO detailed_list (detailed_list_id, detailed_list_name, remark)
         VALUES
         (#{detailedListId}, #{detailedListName}, #{remark})
     </insert>
 
+    <!--*****************************************  detailed_list_detail  ***********************************************************-->
+    <!-- 查询推荐清单详情表所有数据 -->
+    <select id="getAllDetailedListDetail" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerDetailedListDetail">
+        select * from detailed_list_detail
+    </select>
+
+    <!-- 删除推荐清单详情表所有数据 -->
+    <delete id="deleteAllDetailedListDetail" parameterType="string">
+        truncate table detailed_list_detail
+    </delete>
+
+    <!-- 新增推荐清单详情表数据 -->
+    <insert id="insertDetailedListDetail" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerDetailedListDetail">
+        INSERT INTO detailed_list_detail (id,detailed_list_id,tool_id,borrow_number,remark)
+        VALUES
+        (#{id}, #{detailedListId},#{toolId},#{borrowNumber}, #{remark})
+    </insert>
+
+    <!--*****************************************  discard_entry  ***********************************************************-->
+    <!-- 查询报废表所有数据 -->
+    <select id="getAllDiscardEntry" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerDiscardEntry">
+        select * from discard_entry
+    </select>
+
+    <!-- 查询SQLserver数据库中任意一条数据的数量，若返回值为空，则表示是空数据库，反正，有数据 -->
+    <select id="getOneDiscardEntry" parameterType="string" resultType="int">
+        select top 1 count(1) from discard_entry
+    </select>
+
+    <!-- 查询当前月的报废单号 -->
+    <select id="getNowDiscardEntryId" parameterType="string" resultType="String">
+        select top 1 left(discard_entry_id, 6) from discard_entry where left(discard_entry_id, 6) = (select CONVERT(varchar(6),GETDATE(),112))
+    </select>
+
+    <!-- 根据报废单号删除数据 -->
+    <delete id="deleteDiscardEntryById" parameterType="com.zhenghao.Params">
+        delete from discard_entry where left(discard_entry_id, 6) = #{map.discardEntryId}
+    </delete>
+
+    <!-- 新增报废表数据 -->
+    <insert id="insertDiscardEntry" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerDiscardEntry">
+        INSERT INTO discard_entry (discard_entry_id,discard_emp_id,discard_date,audit_emp_id,audit_date,status,remark)
+        VALUES
+        (#{discardEntryId}, #{discardEmpId},#{discardDate},#{auditEmpId},#{auditDate}, #{status},#{remark})
+    </insert>
+
+    <!--*****************************************  discard_entry_detail  ***********************************************************-->
+    <!-- 查询报废详情表所有数据 -->
+    <select id="getAllDiscardEntryDetail" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerDiscardEntryDetail">
+        select * from discard_entry_detail
+    </select>
+
+    <!-- 查询SQLserver数据库中任意一条数据的数量，若返回值为空，则表示是空数据库，反正，有数据 -->
+    <select id="getOneDiscardEntryDetail" parameterType="string" resultType="int">
+        select top 1 count(1) from discard_entry_detail
+    </select>
+
+    <!-- 查询当前月的报废单号 -->
+    <select id="getNowDiscardEntryDetailId" parameterType="string" resultType="String">
+        select top 1 left(discard_entry_id, 6) from discard_entry_detail where left(discard_entry_id, 6) = (select CONVERT(varchar(6),GETDATE(),112))
+    </select>
+
+    <!-- 根据报废单号删除数据 -->
+    <delete id="deleteDiscardEntryDetailById" parameterType="com.zhenghao.Params">
+        delete from discard_entry_detail where left(discard_entry_id, 6) = #{map.discardEntryId}
+    </delete>
+
+    <!-- 新增报废详情表数据 -->
+    <insert id="insertDiscardEntryDetail" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerDiscardEntryDetail">
+        INSERT INTO discard_entry_detail (id,discard_entry_id,bar_code,tool_id,category_id,reason)
+        VALUES
+        (#{id},#{discardEntryId},#{barCode},#{toolId},#{categoryId},#{reason})
+    </insert>
+
+
+    <!--*****************************************  Log_maintenance  ***********************************************************-->
+    <!-- 查询维护日志表所有数据 -->
+    <select id="getAllLogMaintenance" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerLogMaintenance">
+        select * from log_maintenance
+    </select>
+
+    <!-- 查询SQLserver数据库中任意一条数据的数量，若返回值为空，则表示是空数据库，反正，有数据 -->
+    <select id="getOneLogMaintenance" parameterType="string" resultType="int">
+        select top 1 count(1) from log_maintenance
+    </select>
+
+    <!-- 查询当前月的维护日志单号 -->
+    <select id="getNowLogMaintenanceId" parameterType="string" resultType="String">
+        select top 1 left(maintenance_id, 6) from log_maintenance where left(maintenance_id, 6) = (select CONVERT(varchar(6),GETDATE(),112))
+    </select>
+
+    <!-- 根据维护日志单号删除数据 -->
+    <delete id="deleteLogMaintenanceById" parameterType="com.zhenghao.Params">
+        delete from log_maintenance where left(maintenance_id, 6) = #{map.maintenanceId}
+    </delete>
+
+    <!-- 新增维护日志表数据 -->
+    <insert id="insertLogMaintenance" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerLogMaintenance">
+        INSERT INTO log_maintenance (id,maintenance_id,maintenance_emp_id,maintenance_date,bar_code,status)
+        VALUES
+        (#{id},#{maintenanceId},#{maintenanceEmpId},#{maintenanceDate},#{barCode},#{status})
+    </insert>
+
+    <!--*****************************************  tool_category  ***********************************************************-->
+    <!-- 查询种类表所有信息 -->
+    <select id="getAllToolCategory" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerToolCategory">
+        select * from tool_category
+    </select>
+
+    <!-- 删除种类表 表中所有的数据 -->
+    <delete id="deleteAllToolCategory" parameterType="string">
+        truncate table tool_category
+    </delete>
+
+    <!-- 新增种类表数据 -->
+    <insert id="insertToolCategory" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerToolCategory">
+        INSERT INTO tool_category (category_id,category_name,father_id,category_tag)
+        VALUES
+        (#{categoryId},#{categoryName},#{fatherId},#{categoryTag})
+    </insert>
+
+    <!--*****************************************  tool_his_back  ***********************************************************-->
+    <!-- 查询工具归还流水表所有数据 -->
+    <select id="getAllToolHisBack" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerToolHisBack">
+        select * from tool_his_back
+    </select>
+
+    <!-- 查询SQLserver数据库中最大的id值（因为在sqlite数据库中他是自增的） -->
+    <select id="getHisBackMaxId" parameterType="string" resultType="int">
+        select ISNULL(max(id), 0) from tool_his_back
+    </select>
+
+    <!-- 新增工具归还流水表数据 -->
+    <insert id="insertToolHisBack" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerToolHisBack">
+        INSERT INTO tool_his_back (id,borrow_entry_id,detailed_list_id,bar_code,tool_id,return_date,return_emp_id,purpose,test_emp_name,test_status,remark)
+        VALUES
+        (#{id},#{borrowEntryId},#{detailedListId},#{barCode},#{toolId},#{returnDate},#{returnEmpId},#{purpose},#{testEmpName},#{testStatus},#{remark})
+    </insert>
+
+    <!--*****************************************  tool_his_borrow  ***********************************************************-->
+    <!-- 查询工具领用流水表所有数据 -->
+    <select id="getAllToolHisBorrow" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerToolHisBorrow">
+        select * from tool_his_borrow
+    </select>
+
+    <!-- 查询SQLserver数据库中最大的id值（因为在sqlite数据库中他是自增的） -->
+    <select id="getHisBorrowMaxId" parameterType="string" resultType="int">
+        select ISNULL(max(id), 0) from tool_his_borrow
+    </select>
+
+    <!-- 新增工具领用流水表数据 -->
+    <insert id="insertToolHisBorrow" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerToolHisBorrow">
+        INSERT INTO tool_his_borrow (id,borrow_entry_id,detailed_list_id,bar_code,tool_id,borrow_date,number_of_use,borrow_emp_id,remark)
+        VALUES
+        (#{id},#{borrowEntryId},#{detailedListId},#{barCode},#{toolId},#{borrowDate},#{numberOfUse},#{borrowEmpId},#{remark})
+    </insert>
+
+    <!--*****************************************  tool_info  ***********************************************************-->
+    <!-- 查询工具信息表所有信息 -->
+    <select id="getAllToolInfo" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerToolInfo">
+        select * from tool_info
+    </select>
+
+    <!-- 删除工具信息表 表中所有的数据 -->
+    <delete id="deleteAllToolInfo" parameterType="string">
+        truncate table tool_info
+    </delete>
+
+    <!-- 新增工具信息表数据 -->
+    <insert id="insertToolInfo" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerToolInfo">
+        INSERT INTO tool_info (tool_id,tool_name,category_id,brief_code,in_amount,borrow_amount,specification,unit,manufacturer,price_unit,test_period,date_in_produced,remark)
+        VALUES
+        (
+        #{toolId},#{toolName},#{categoryId},#{briefCode},#{inAmount},#{borrowAmount},#{specification},#{unit},#{manufacturer},#{priceUnit},#{testPeriod},#{dateInProduced},#{remark}
+        )
+    </insert>
+
+    <!--*****************************************  tools  ***********************************************************-->
+    <!-- 查询台账表所有信息 -->
+    <select id="getAllTools" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerTools">
+        select * from tools
+    </select>
+
+    <!-- 删除台账表 表中所有的数据 -->
+    <delete id="deleteAllTools" parameterType="string">
+        truncate table tools
+    </delete>
+
+    <!-- 新增台账表数据 -->
+    <insert id="insertTools" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerTools">
+        INSERT INTO tools (bar_code,flag_bar_code,brief_code,tool_id,warehousing_entry_id,last_borrow_entry_id,
+              last_test_date,next_test_date,number_of_use,status,test_status,maintenance_number,remark)
+        VALUES
+        (
+            #{barCode},#{flagBarCode},#{briefCode},#{toolId},#{warehousingEntryId},#{lastBorrowEntryId},#{lastTestDate},
+            #{nextTestDate},#{numberOfUse},#{status},#{testStatus},#{maintenanceNumber},#{remark}
+        )
+    </insert>
+
+    <!--*****************************************  warehousing_entry  ***********************************************************-->
+    <!-- 查询入库表所有信息 -->
+    <select id="getAllWarehousingEntry" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerWarehousingEntry">
+        select * from warehousing_entry
+    </select>
+
+    <!-- 删除入库表 表中所有的数据 -->
+    <delete id="deleteAllWarehousingEntry" parameterType="string">
+        truncate table warehousing_entry
+    </delete>
+
+    <!-- 新增入库表数据 -->
+    <insert id="insertWarehousingEntry" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerWarehousingEntry">
+        INSERT INTO warehousing_entry (warehousing_entry_id,warehousing_date,emp_id,acceptor_id,certificate_url,detailed_list_url,remark)
+        VALUES
+        (#{warehousingEntryId},#{warehousingDate},#{empId},#{acceptorId},#{certificateUrl},#{detailedListUrl},#{remark})
+    </insert>
+
+
+    <!--*****************************************  warehousing_entry_detail  ***********************************************************-->
+    <!-- 查询入库详情表所有信息 -->
+    <select id="getAllWarehousingEntryDetail" parameterType="string" resultType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerWarehousingEntryDetail">
+        select * from warehousing_entry_detail
+    </select>
+
+    <!-- 删除入库详情表 表中所有的数据 -->
+    <delete id="deleteAllWarehousingEntryDetail" parameterType="string">
+        truncate table warehousing_entry_detail
+    </delete>
+
+    <!-- 新增入库详情表数据 -->
+    <insert id="insertWarehousingEntryDetail" parameterType="com.zhenghao.dbmigration.entity.sqlserver.SQLServerWarehousingEntryDetail">
+        INSERT INTO warehousing_entry_detail (warehousing_entry_id,tool_id,last_test_date,next_test_date,accept_amount,remark)
+        VALUES
+        (#{warehousingEntryId},#{toolId},#{lastTestDate},#{nextTestDate},#{acceptAmount},#{remark})
+    </insert>
+
+    <!-- 清空所有表中的数据 -->
+    <delete id="deleteAllTables" parameterType="string">
+        truncate table DETAILED_LIST_DETAIL;
+        truncate table DISCARD_ENTRY;
+        truncate table DISCARD_ENTRY_DETAIL;
+        truncate table EMPLOYEE;
+        truncate table INVENTORY_ENTRY;
+        truncate table INVENTORY_ENTRY_DETAIL;
+        truncate table LOG_MAINTENANCE;
+        truncate table TOOL_CATEGORY;
+        truncate table TOOL_HIS_BACK;
+        truncate table TOOL_HIS_BORROW;
+        truncate table TOOL_INFO;
+        truncate table TOOLS;
+        truncate table UPLOAD;
+        truncate table WAREHOUSING_ENTRY;
+        truncate table WAREHOUSING_ENTRY_DETAIL;
+        truncate table BORROW_ENTRY;
+        truncate table BORROW_ENTRY_DETAIL;
+        truncate table DETAILED_LIST;
+    </delete>
 </mapper>

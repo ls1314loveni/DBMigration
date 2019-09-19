@@ -18,8 +18,8 @@ import javax.sql.DataSource;
 /**
  * sqlite配置类
  */
-@Configuration
-@MapperScan(basePackages = "com.zhenghao.dbmigration.dao.sqlite",sqlSessionTemplateRef = "sqliteSqlSessionTemplate")
+ @Configuration
+ @MapperScan(basePackages = "com.zhenghao.dbmigration.dao.sqlite",sqlSessionTemplateRef = "sqliteSqlSessionTemplate")
 public class SqliteDataSourceConfig {
 
     /**

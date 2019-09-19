@@ -8,7 +8,7 @@ spring:
 
     sqlserver:
       driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-      jdbc-url: jdbc:sqlserver://39.105.163.87:1433;DatabaseName=tm_cs
+      jdbc-url: jdbc:sqlserver://39.105.163.87:1433;DatabaseName=appToAliyun_cs
       username: sa
       password: zh1qaz!QAZ
   devtools:
@@ -47,5 +47,5 @@ mybatis-plus:
       logic-delete-value: 0
       logic-not-delete-value: 1
 
-#logging:
-#  config: classpath:config/slf4j.xml
+logging:
+  config: classpath:config/slf4j.xml

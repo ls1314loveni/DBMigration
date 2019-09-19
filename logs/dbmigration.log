@@ -1,0 +1,244 @@
+2019-09-19 18:11:22.867 [ restartedMain ] - [ INFO  ] [ com.zhenghao.dbmigration.DbmigrationApplication : 50 ] - Starting DbmigrationApplication on 7VHGD2I4U7IWJY9 with PID 17336 (started by Administrator in E:\项目\dbmigration)
+2019-09-19 18:11:22.872 [ restartedMain ] - [ DEBUG ] [ com.zhenghao.dbmigration.DbmigrationApplication : 53 ] - Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-19 18:11:22.872 [ restartedMain ] - [ INFO  ] [ com.zhenghao.dbmigration.DbmigrationApplication : 648 ] - No active profile set, falling back to default profiles: default
+2019-09-19 18:11:24.258 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[com.zhenghao.dbmigration.mapper.*.*]' package. Please check your configuration.
+2019-09-19 18:11:25.616 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8020"]
+2019-09-19 18:11:25.625 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-19 18:11:25.625 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-19 18:11:25.746 [ restartedMain ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/dbmigration] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-19 18:11:26.165 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-09-19 18:11:27.173 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-09-19 18:11:27.341 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.dbmigration.entity.sqlserver.SQLServerEmployee.
+2019-09-19 18:11:27.407 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2019-09-19 18:11:27.532 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2019-09-19 18:11:27.535 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-19 18:12:35.891 [ restartedMain ] - [ INFO  ] [ com.zhenghao.dbmigration.DbmigrationApplication : 50 ] - Starting DbmigrationApplication on 7VHGD2I4U7IWJY9 with PID 10668 (started by Administrator in E:\项目\dbmigration)
+2019-09-19 18:12:35.916 [ restartedMain ] - [ DEBUG ] [ com.zhenghao.dbmigration.DbmigrationApplication : 53 ] - Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-19 18:12:35.917 [ restartedMain ] - [ INFO  ] [ com.zhenghao.dbmigration.DbmigrationApplication : 648 ] - No active profile set, falling back to default profiles: default
+2019-09-19 18:12:36.593 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[com.zhenghao.dbmigration.mapper.*.*]' package. Please check your configuration.
+2019-09-19 18:12:37.263 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8020"]
+2019-09-19 18:12:37.270 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-19 18:12:37.271 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-19 18:12:37.368 [ restartedMain ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/dbmigration] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-19 18:12:37.522 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-09-19 18:12:38.112 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-09-19 18:12:38.245 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.dbmigration.entity.sqlserver.SQLServerEmployee.
+2019-09-19 18:12:38.298 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2019-09-19 18:12:38.474 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2019-09-19 18:12:38.479 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-19 18:16:08.225 [ restartedMain ] - [ INFO  ] [ com.zhenghao.dbmigration.DbmigrationApplication : 50 ] - Starting DbmigrationApplication on 7VHGD2I4U7IWJY9 with PID 11712 (started by Administrator in E:\项目\dbmigration)
+2019-09-19 18:16:08.228 [ restartedMain ] - [ DEBUG ] [ com.zhenghao.dbmigration.DbmigrationApplication : 53 ] - Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-19 18:16:08.229 [ restartedMain ] - [ INFO  ] [ com.zhenghao.dbmigration.DbmigrationApplication : 648 ] - No active profile set, falling back to default profiles: default
+2019-09-19 18:16:08.872 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[com.zhenghao.dbmigration.mapper.*.*]' package. Please check your configuration.
+2019-09-19 18:16:09.768 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8020"]
+2019-09-19 18:16:09.778 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-19 18:16:09.779 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-19 18:16:09.899 [ restartedMain ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/dbmigration] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-19 18:16:10.061 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-09-19 18:16:10.687 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-09-19 18:16:10.855 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.dbmigration.entity.sqlserver.SQLServerEmployee.
+2019-09-19 18:16:10.933 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-2 - Starting...
+2019-09-19 18:16:11.082 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-2 - Start completed.
+2019-09-19 18:16:11.130 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.dbmigration.entity.sqlite.SqliteEmployee.
+2019-09-19 18:16:12.155 [ restartedMain ] - [ INFO  ] [ org.quartz.impl.StdSchedulerFactory : 1208 ] - Using default implementation for ThreadExecutor
+2019-09-19 18:16:12.169 [ restartedMain ] - [ INFO  ] [ org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-09-19 18:16:12.169 [ restartedMain ] - [ INFO  ] [ org.quartz.core.QuartzScheduler : 229 ] - Quartz Scheduler v.2.3.1 created.
+2019-09-19 18:16:12.170 [ restartedMain ] - [ INFO  ] [ org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2019-09-19 18:16:12.171 [ restartedMain ] - [ INFO  ] [ org.quartz.core.QuartzScheduler : 294 ] - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-09-19 18:16:12.172 [ restartedMain ] - [ INFO  ] [ org.quartz.impl.StdSchedulerFactory : 1362 ] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-09-19 18:16:12.172 [ restartedMain ] - [ INFO  ] [ org.quartz.impl.StdSchedulerFactory : 1366 ] - Quartz scheduler version: 2.3.1
+2019-09-19 18:16:12.172 [ restartedMain ] - [ INFO  ] [ org.quartz.core.QuartzScheduler : 2293 ] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5496256f
+2019-09-19 18:16:12.288 [ restartedMain ] - [ INFO  ] [ org.quartz.core.QuartzScheduler : 547 ] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-09-19 18:16:12.304 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8020"]
+2019-09-19 18:16:12.336 [ restartedMain ] - [ INFO  ] [ com.zhenghao.dbmigration.DbmigrationApplication : 59 ] - Started DbmigrationApplication in 5.386 seconds (JVM running for 6.725)
+2019-09-19 18:16:20.569 [ http-nio-8020-exec-1 ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/dbmigration] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-19 18:17:01.046 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlite.SqliteMapper.getAllEmployee : 159 ] - ==>  Preparing: select * from employee 
+2019-09-19 18:17:01.089 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlite.SqliteMapper.getAllEmployee : 159 ] - ==> Parameters: 
+2019-09-19 18:17:01.102 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlite.SqliteMapper.getAllEmployee : 159 ] - <==      Total: 14
+2019-09-19 18:17:01.104 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.d.s.SQLServerMapper.deleteAllEmployee : 159 ] - ==>  Preparing: truncate table employee 
+2019-09-19 18:17:01.127 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.d.s.SQLServerMapper.deleteAllEmployee : 159 ] - ==> Parameters: 
+2019-09-19 18:17:01.186 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.189 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 1(Integer), 韩斌(String), 1234(String), null, null, null, null, null, null, 3(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.247 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.248 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.248 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 2(Integer), 王德喜(String), 1(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.304 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.310 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.311 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 3(Integer), 黄安伟(String), 1(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.365 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.366 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.367 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 4(Integer), 田驰(String), 1(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.423 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.423 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.424 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 5(Integer), 发报表(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.480 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.480 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.481 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 6(Integer), 李刚(String), 1(String), null, null, null, null, null, null, 3(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.535 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.535 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.536 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 7(Integer), 范林(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.592 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.592 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.593 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 8(Integer), 扬俊华(String), 1234(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.649 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.649 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.650 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 9(Integer), 李帅(String), 1234(String), null, null, null, null, null, null, 3(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.705 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.706 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.707 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 10(Integer), 尹雪梅(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.762 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.763 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.763 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 11(Integer), 韩2(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.819 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.820 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.821 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 12(Integer), 吴平(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.876 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.877 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.878 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 13(Integer), 帅李(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.934 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.935 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:17:01.937 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 14(Integer), 唐淀祥(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:17:01.993 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:17:01.994 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.getAllEmployee : 159 ] - ==>  Preparing: select * from employee 
+2019-09-19 18:17:01.995 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.getAllEmployee : 159 ] - ==> Parameters: 
+2019-09-19 18:17:02.058 [ http-nio-8020-exec-9 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.getAllEmployee : 159 ] - <==      Total: 14
+2019-09-19 18:20:00.165 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlite.SqliteMapper.getAllEmployee : 159 ] - ==>  Preparing: select * from employee 
+2019-09-19 18:20:00.166 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlite.SqliteMapper.getAllEmployee : 159 ] - ==> Parameters: 
+2019-09-19 18:20:00.168 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlite.SqliteMapper.getAllEmployee : 159 ] - <==      Total: 14
+2019-09-19 18:20:00.168 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.d.s.SQLServerMapper.deleteAllEmployee : 159 ] - ==>  Preparing: truncate table employee 
+2019-09-19 18:20:00.169 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.d.s.SQLServerMapper.deleteAllEmployee : 159 ] - ==> Parameters: 
+2019-09-19 18:20:00.225 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.225 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 1(Integer), 韩斌(String), 1234(String), null, null, null, null, null, null, 3(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.281 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.282 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.283 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 2(Integer), 王德喜(String), 1(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.338 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.338 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.338 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 3(Integer), 黄安伟(String), 1(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.394 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.394 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.395 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 4(Integer), 田驰(String), 1(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.450 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.451 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.451 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 5(Integer), 发报表(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.506 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.507 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.508 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 6(Integer), 李刚(String), 1(String), null, null, null, null, null, null, 3(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.563 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.564 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.564 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 7(Integer), 范林(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.619 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.620 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.620 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 8(Integer), 扬俊华(String), 1234(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.675 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.676 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.676 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 9(Integer), 李帅(String), 1234(String), null, null, null, null, null, null, 3(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.730 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.731 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.732 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 10(Integer), 尹雪梅(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.787 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.788 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.789 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 11(Integer), 韩2(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.844 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.845 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.845 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 12(Integer), 吴平(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.901 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.902 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.902 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 13(Integer), 帅李(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:00.957 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:00.958 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 18:20:00.958 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 14(Integer), 唐淀祥(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 18:20:01.013 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 18:20:01.014 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.getAllEmployee : 159 ] - ==>  Preparing: select * from employee 
+2019-09-19 18:20:01.014 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.getAllEmployee : 159 ] - ==> Parameters: 
+2019-09-19 18:20:01.076 [ scheduling-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.getAllEmployee : 159 ] - <==      Total: 14
+2019-09-19 19:33:29.926 [ restartedMain ] - [ INFO  ] [ com.zhenghao.dbmigration.DbmigrationApplication : 50 ] - Starting DbmigrationApplication on 7VHGD2I4U7IWJY9 with PID 10196 (started by Administrator in E:\项目\dbmigration)
+2019-09-19 19:33:29.926 [ restartedMain ] - [ DEBUG ] [ com.zhenghao.dbmigration.DbmigrationApplication : 53 ] - Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-19 19:33:29.926 [ restartedMain ] - [ INFO  ] [ com.zhenghao.dbmigration.DbmigrationApplication : 648 ] - No active profile set, falling back to default profiles: default
+2019-09-19 19:33:32.238 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 44 ] - No MyBatis mapper was found in '[com.zhenghao.dbmigration.mapper.*.*]' package. Please check your configuration.
+2019-09-19 19:33:34.237 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8020"]
+2019-09-19 19:33:34.269 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-19 19:33:34.269 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-19 19:33:34.409 [ restartedMain ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/dbmigration] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-19 19:33:34.737 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2019-09-19 19:33:36.143 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2019-09-19 19:33:36.799 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.dbmigration.entity.sqlserver.SQLServerEmployee.
+2019-09-19 19:33:36.877 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-2 - Starting...
+2019-09-19 19:33:36.987 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-2 - Start completed.
+2019-09-19 19:33:37.018 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.toolkit.TableInfoHelper : 255 ] - Warn: Could not find @TableId in Class: com.zhenghao.dbmigration.entity.sqlite.SqliteEmployee.
+2019-09-19 19:33:37.987 [ restartedMain ] - [ INFO  ] [ org.quartz.impl.StdSchedulerFactory : 1208 ] - Using default implementation for ThreadExecutor
+2019-09-19 19:33:38.002 [ restartedMain ] - [ INFO  ] [ org.quartz.core.SchedulerSignalerImpl : 61 ] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-09-19 19:33:38.002 [ restartedMain ] - [ INFO  ] [ org.quartz.core.QuartzScheduler : 229 ] - Quartz Scheduler v.2.3.1 created.
+2019-09-19 19:33:38.002 [ restartedMain ] - [ INFO  ] [ org.quartz.simpl.RAMJobStore : 155 ] - RAMJobStore initialized.
+2019-09-19 19:33:38.002 [ restartedMain ] - [ INFO  ] [ org.quartz.core.QuartzScheduler : 294 ] - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-09-19 19:33:38.002 [ restartedMain ] - [ INFO  ] [ org.quartz.impl.StdSchedulerFactory : 1362 ] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-09-19 19:33:38.002 [ restartedMain ] - [ INFO  ] [ org.quartz.impl.StdSchedulerFactory : 1366 ] - Quartz scheduler version: 2.3.1
+2019-09-19 19:33:38.002 [ restartedMain ] - [ INFO  ] [ org.quartz.core.QuartzScheduler : 2293 ] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@421975b
+2019-09-19 19:33:38.205 [ restartedMain ] - [ INFO  ] [ org.quartz.core.QuartzScheduler : 547 ] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-09-19 19:33:38.299 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8020"]
+2019-09-19 19:33:38.393 [ restartedMain ] - [ INFO  ] [ com.zhenghao.dbmigration.DbmigrationApplication : 59 ] - Started DbmigrationApplication in 10.515 seconds (JVM running for 14.051)
+2019-09-19 19:34:26.003 [ http-nio-8020-exec-1 ] - [ INFO  ] [ o.a.c.c.C.[Tomcat].[localhost].[/dbmigration] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-19 19:34:26.417 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlite.SqliteMapper.getAllEmployee : 159 ] - ==>  Preparing: select * from employee 
+2019-09-19 19:34:26.428 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlite.SqliteMapper.getAllEmployee : 159 ] - ==> Parameters: 
+2019-09-19 19:34:26.441 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlite.SqliteMapper.getAllEmployee : 159 ] - <==      Total: 14
+2019-09-19 19:34:26.443 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.d.s.SQLServerMapper.deleteAllEmployee : 159 ] - ==>  Preparing: truncate table employee 
+2019-09-19 19:34:26.465 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.d.s.SQLServerMapper.deleteAllEmployee : 159 ] - ==> Parameters: 
+2019-09-19 19:34:26.593 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:26.597 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 1(Integer), 韩斌(String), 1234(String), null, null, null, null, null, null, 3(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:26.665 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:26.666 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:26.667 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 2(Integer), 王德喜(String), 1(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:26.735 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:26.748 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:26.749 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 3(Integer), 黄安伟(String), 1(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:26.814 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:26.815 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:26.816 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 4(Integer), 田驰(String), 1(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:26.988 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:26.989 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:26.989 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 5(Integer), 发报表(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:27.056 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:27.057 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:27.058 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 6(Integer), 李刚(String), 1(String), null, null, null, null, null, null, 3(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:27.128 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:27.129 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:27.129 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 7(Integer), 范林(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:27.211 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:27.212 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:27.213 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 8(Integer), 扬俊华(String), 1234(String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:27.401 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:27.403 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:27.405 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 9(Integer), 李帅(String), 1234(String), null, null, null, null, null, null, 3(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:27.473 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:27.474 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:27.474 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 10(Integer), 尹雪梅(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:27.542 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:27.543 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:27.544 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 11(Integer), 韩2(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:27.607 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:27.608 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:27.610 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 12(Integer), 吴平(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:27.814 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:27.815 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:27.816 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 13(Integer), 帅李(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:27.882 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:27.882 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==>  Preparing: INSERT INTO employee (emp_id,emp_name,password,card_id,telephone,gender,birthday,regist_date,modify_date,priority,open_door_time,flag) VALUES ( ?,?,?,?,?,?,?,?,?,?,?,? ) 
+2019-09-19 19:34:27.883 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - ==> Parameters: 14(Integer), 唐淀祥(String), (String), null, null, null, null, null, null, 0(Integer), 2019-09-11T08:30:40.0130585+08:00(String), 0(String)
+2019-09-19 19:34:27.947 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.insertEmployee : 159 ] - <==    Updates: 1
+2019-09-19 19:34:27.948 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.getAllEmployee : 159 ] - ==>  Preparing: select * from employee 
+2019-09-19 19:34:27.948 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.getAllEmployee : 159 ] - ==> Parameters: 
+2019-09-19 19:34:28.026 [ http-nio-8020-exec-1 ] - [ DEBUG ] [ c.z.d.dao.sqlserver.SQLServerMapper.getAllEmployee : 159 ] - <==      Total: 14
